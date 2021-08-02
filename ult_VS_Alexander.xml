@@ -1390,19 +1390,19 @@
       <v-notice order="-1" duration="3.8" duration-visible="true" icon="Avoid.png" />
     </t>
 
-    <t text="接触保護\n➜ デルタへ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：接触保護命令 from" notice="デルタえー。">
+    <t text="光の親\n➜ デルタへ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：接触保護命令 from" notice="デルタえー。">
       <v-notice order="0" duration="5" icon="D.png" />
     </t>
 
-    <t text="逃亡監察\n➜ ブラボーへ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：逃亡監察命令 from" notice="ブラボーえー。">
+    <t text="闇の親\n➜ 2へ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：逃亡監察命令 from" notice="2えー。">
       <v-notice order="0" duration="5" icon="B.png" />
     </t>
 
-    <t text="逃亡禁止\n➜ ブラボー手前へ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：逃亡禁止命令 from" notice="ブラボー手前えー。">
+    <t text="闇の子\n➜ 2手前へ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：逃亡禁止命令 from" notice="2手前えー。">
       <v-notice order="0" duration="5" icon="B.png" />
     </t>
 
-    <t text="接触禁止\n➜ ブラボー手前へ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：接触禁止命令 from" notice="ブラボー手前えー。">
+    <t text="光の子\n➜ 2手前へ" sync="^1A:[id8]:[mex] gains the effect of 確定判決：接触禁止命令 from" notice="2手前えー。">
       <v-notice order="0" duration="5" icon="B.png" />
     </t>
 
@@ -1813,7 +1813,7 @@
       </expressions>
     </t>
 
-    <t name="α：デバフ無し1" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="無罪、右側えー。">
+    <t name="α：デバフ無し1" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="無罪、左側えー。">
       <expressions>
         <pre name="TABLE['alpha'][0]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1824,7 +1824,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="α：デバフ無し2" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="無罪、右側えー。">
+    <t name="α：デバフ無し2" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="無罪、左側えー。">
       <expressions>
         <pre name="TABLE['alpha'][1]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1835,7 +1835,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="α：デバフ無し3" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="無罪、右側えー。">
+    <t name="α：デバフ無し3" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="無罪、左側えー。">
       <expressions>
         <pre name="TABLE['alpha'][2]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1846,7 +1846,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="α：加重罰1" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="加重罰、左側えー。">
+    <t name="α：加重罰1" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="加重罰、右側えー。">
       <expressions>
         <pre name="TABLE['alpha'][3]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1857,7 +1857,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="α：加重罰2" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="加重罰、左側えー。">
+    <t name="α：加重罰2" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="加重罰、右側えー。">
       <expressions>
         <pre name="TABLE['alpha'][4]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1868,7 +1868,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="α：加重罰3" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="加重罰、左側えー。">
+    <t name="α：加重罰3" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="加重罰、右側えー。">
       <expressions>
         <pre name="TABLE['alpha'][5]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1890,7 +1890,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="α：集団罰" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="集団罰、右側えー。">
+    <t name="α：集団罰" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="集団罰、左側えー。">
       <expressions>
         <pre name="TABLE['alpha'][7]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1928,7 +1928,7 @@
       </expressions>
     </t>
 
-    <t name="β：接触✕／接近✕" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="3時の北えー。">
+    <t name="β：光の子／離れる" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="2の左上ー。">
       <expressions>
         <pre name="TABLE['beta'][0]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1939,7 +1939,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="β：逃亡✕／接近✕" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="3時の南えー。">
+    <t name="β：闇の子／離れる" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="2の左下えー。">
       <expressions>
         <pre name="TABLE['beta'][1]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1950,7 +1950,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="β：接触✕／接近強制" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="3時の北えー。">
+    <t name="β：光の子／近づく" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="2の左上えー。">
       <expressions>
         <pre name="TABLE['beta'][2]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1961,7 +1961,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="β：逃亡✕／接近強制" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="3時の北えー。">
+    <t name="β：闇の子／近づく" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="2の左上えー。">
       <expressions>
         <pre name="TABLE['beta'][3]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1972,7 +1972,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="β：接触✕／集団罰" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="3時の北えー。">
+    <t name="β：光の子／集団罰" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="2の左上えー。">
       <expressions>
         <pre name="TABLE['beta'][4]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1983,7 +1983,7 @@
         duration-visible="false" />
     </t>
 
-    <t name="β：逃亡✕" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="3時の西えー。">
+    <t name="β：闇の子" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="2の左中央えー。">
       <expressions>
         <pre name="TABLE['beta'][5]['job']" value="@Model.Player.Job" />
       </expressions>
@@ -1994,23 +1994,23 @@
         duration-visible="false" />
     </t>
 
-    <t name="β：接触保護" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="北えー。">
+    <t name="β：光の親" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="4の右上えー。">
       <expressions>
         <pre name="TABLE['beta'][6]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="接触保護 ➜ 北\n頭割り ➔ 北"
+        text="光の親 ➜ 北\n頭割り ➔ 北"
         icon="Touch.png"
         duration="26"
         duration-visible="false" />
     </t>
 
-    <t name="β：逃亡監察" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="3時の東えー。">
+    <t name="β：闇の親" sync="^03:([0-9a-fA-F]{8}):Added new combatant .  Job: (\w{3}) Level: 80 Max HP: 148000 Max MP: 10000 Pos:" sync-count="8" notice="2の右側えー。">
       <expressions>
         <pre name="TABLE['beta'][7]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="逃亡監察\n３時 ➜ 東\n頭割り ➔ 南"
+        text="闇の親\n３時 ➜ 東\n頭割り ➔ 南"
         icon="ObserveEscape.png"
         duration="26"
         duration-visible="false" />
