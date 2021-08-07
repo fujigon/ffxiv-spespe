@@ -1818,7 +1818,7 @@
         <pre name="TABLE['alpha'][0]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="無罪：右"
+        text="無罪：左"
         icon="Free.png"
         duration="30"
         duration-visible="false" />
@@ -1829,7 +1829,7 @@
         <pre name="TABLE['alpha'][1]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="無罪：右"
+        text="無罪：左"
         icon="Free.png"
         duration="30"
         duration-visible="false" />
@@ -1840,7 +1840,7 @@
         <pre name="TABLE['alpha'][2]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="無罪：右"
+        text="無罪：左"
         icon="Free.png"
         duration="30"
         duration-visible="false" />
@@ -1851,7 +1851,7 @@
         <pre name="TABLE['alpha'][3]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="加重：左"
+        text="加重：右"
         icon="PunishmentHevy.png"
         duration="30"
         duration-visible="false" />
@@ -1862,7 +1862,7 @@
         <pre name="TABLE['alpha'][4]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="加重：左"
+        text="加重：右"
         icon="PunishmentHevy.png"
         duration="30"
         duration-visible="false" />
@@ -1873,7 +1873,7 @@
         <pre name="TABLE['alpha'][5]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="加重：左"
+        text="加重：右"
         icon="PunishmentHevy.png"
         duration="30"
         duration-visible="false" />
@@ -1895,7 +1895,7 @@
         <pre name="TABLE['alpha'][7]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="集団：右"
+        text="集団：左"
         icon="PunishmentGroup.png"
         duration="30"
         duration-visible="false" />
@@ -1933,7 +1933,7 @@
         <pre name="TABLE['beta'][0]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="接触✕／接近✕\n３時 ➜ 北\n頭割り ➔ 北"
+        text="光の子／離れる\n2マーカー左上 ➜ 北\n頭割り ➔ 北"
         icon="DontTouch.png"
         duration="26"
         duration-visible="false" />
@@ -1944,7 +1944,7 @@
         <pre name="TABLE['beta'][1]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="逃亡✕／接近✕\n３時 ➜ 南\n頭割り ➔ 南"
+        text="闇の子／離れる\n2マーカー左下 ➜ 南\n頭割り ➔ 南"
         icon="DontEscape.png"
         duration="26"
         duration-visible="false" />
@@ -1955,7 +1955,7 @@
         <pre name="TABLE['beta'][2]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="接触✕／接近強制\n３時 ➜ 北\n頭割り ➔ 北"
+        text="光の子／近づく\n2マーカー左上 ➜ 北\n頭割り ➔ 北"
         icon="DontTouch.png"
         duration="26"
         duration-visible="false" />
@@ -1966,7 +1966,7 @@
         <pre name="TABLE['beta'][3]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="逃亡✕／接近強制\n３時 ➜ 北\n頭割り ➔ 南"
+        text="闇の子／近づく\n2マーカー左上 ➜ 北\n頭割り ➔ 南"
         icon="DontEscape.png"
         duration="26"
         duration-visible="false" />
@@ -1977,7 +1977,7 @@
         <pre name="TABLE['beta'][4]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="接触✕／集団罰\n３時 ➜ 北\n頭割り ➔ 北"
+        text="光の子／集団罰\n2マーカー左上 ➜ 北\n頭割り ➔ 北"
         icon="DontTouch.png"
         duration="26"
         duration-visible="false" />
@@ -1988,7 +1988,7 @@
         <pre name="TABLE['beta'][5]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="逃亡✕\n３時 ➜ 西\n頭割り ➔ 南"
+        text="闇の子\n2マーカー左中央 ➜ 西\n頭割り ➔ 南"
         icon="DontEscape.png"
         duration="26"
         duration-visible="false" />
@@ -2010,7 +2010,7 @@
         <pre name="TABLE['beta'][7]['job']" value="@Model.Player.Job" />
       </expressions>
       <v-notice
-        text="闇の親\n３時 ➜ 東\n頭割り ➔ 南"
+        text="闇の親\n2マーカー右 ➜ 東\n頭割り ➔ 南"
         icon="ObserveEscape.png"
         duration="26"
         duration-visible="false" />
