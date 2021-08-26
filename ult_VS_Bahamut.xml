@@ -53,7 +53,7 @@
     var thunder_order = new string[] { "[SAM]", "[NIN]", "[BRD]", "[RDM]", "[AST]", "[WHM]", "[GNB]", "[RDM]" };
 
     // 連撃フェーズの玉とシェイカーの優先順位
-    var rengeki_order = new string[] { "[DRK]", "[GNB]", "[WHM]", "[AST]", "[DRG]", "[NIN]", "[BRD]", "[SMN]" };
+    var rengeki_order = new string[] { "[WHM]", "[BRD]", "[SAM]", "[DRK]", "[GNB]", "[NIN]", "[RDM]", "[AST]" };
   }
 
   <default target-element="Activity" target-attr="notice-d" value="Main" />
