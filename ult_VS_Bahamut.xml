@@ -47,7 +47,7 @@
   @* 優先順位の定義 *@
   @{
     // タニアフェーズの玉の優先順位
-    var tama_order    = new string[] { "[DRK]", "[GNB]", "[WHM]", "[AST]", "[DRG]", "[NIN]", "[BRD]", "[SMN]" };
+    var tama_order    = new string[] { "[DRK]", "[GNB]", "[WHM]", "[AST]", "[BRD]", "[SAM]", "[NIN]", "[RDM]" };
 
     // ネールフェーズの雷の優先順位
     var thunder_order = new string[] { "[GNB]", "[DRK]", "[AST]", "[WHM]", "[NIN]", "[DRG]", "[BRD]", "[SMN]" };
