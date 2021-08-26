@@ -47,10 +47,10 @@
   @* 優先順位の定義 *@
   @{
     // タニアフェーズの玉の優先順位
-    var tama_order    = new string[] { "[DRK]", "[GNB]", "[WHM]", "[AST]", "[BRD]", "[SAM]", "[NIN]", "[RDM]" };
+    var tama_order    = new string[] { "[BRD]", "[SAM]", "[NIN]", "[RDM]", "[DRK]", "[GNB]", "[WHM]", "[AST]" };
 
     // ネールフェーズの雷の優先順位
-    var thunder_order = new string[] { "[SAM]", "[NIN]", "[BRD]", "[RDM]", "[AST]", "[WHM]", "[GNB]", "[RDM]" };
+    var thunder_order = new string[] { "[SAM]", "[NIN]", "[BRD]", "[RDM]", "[AST]", "[WHM]", "[GNB]", "[DRK]" };
 
     // 連撃フェーズの玉とシェイカーの優先順位
     var rengeki_order = new string[] { "[WHM]", "[BRD]", "[SAM]", "[DRK]", "[GNB]", "[NIN]", "[RDM]", "[AST]" };
