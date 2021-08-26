@@ -50,7 +50,7 @@
     var tama_order    = new string[] { "[DRK]", "[GNB]", "[WHM]", "[AST]", "[BRD]", "[SAM]", "[NIN]", "[RDM]" };
 
     // ネールフェーズの雷の優先順位
-    var thunder_order = new string[] { "[GNB]", "[DRK]", "[AST]", "[WHM]", "[NIN]", "[DRG]", "[BRD]", "[SMN]" };
+    var thunder_order = new string[] { "[SAM]", "[NIN]", "[BRD]", "[RDM]", "[AST]", "[WHM]", "[GNB]", "[RDM]" };
 
     // 連撃フェーズの玉とシェイカーの優先順位
     var rengeki_order = new string[] { "[DRK]", "[GNB]", "[WHM]", "[AST]", "[DRG]", "[NIN]", "[BRD]", "[SMN]" };
